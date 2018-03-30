@@ -33,7 +33,7 @@ ______
 
 # <span style="color:blue;font-size:1em">Chaining:</span>
 
-### let say a string object is created and it calls **hasOwnProperty** then this object search this property first in String object  and if it fails to find there then it goes to Object prototype and search there and as soon its find the property it stops there.
+### lets say a string object is created and it calls **hasOwnProperty** then this object search this property first in String object  and if it fails to find there then it goes to Object prototype and search there and as soon its find the property it stops there.
 
 
 #### Example1:
@@ -201,7 +201,7 @@ x2.printValues()
 
 <span style="color:blue;font-size:1.5em">Overriding prototypal properties</span>
 
-#### lets override printValues funtion (above) for chld objects.
+### lets override printValues funtion (above) for child objects.
 
 
 ```javascript
@@ -233,7 +233,7 @@ x2.printValues()
     Values are, a =  1  and b =  2
     
 
-#### lets override for other all child object.
+#### lets override for all the other child objects.
 
 
 ```javascript
