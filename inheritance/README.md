@@ -17,11 +17,7 @@ ___
 
 ### Even All the native js data structures inherits all of their properties and methods from their own prototype, and Object Prototype is present at highest level of hierarchy, that is, all other data structures inherits some hidden properties from Object prototype.
 
-|   | |<span style="color:red;">****Object Prototype**** </span> |   |  |
-|---|---|---|---|
-| <span style="color:green;">**Array Prototype**</span>  | <span style="color:green;">**String Prototype** </span> |   <span style="color:green;">**Number Prototype**</span>| <span style="color:green;"> **Funtion Prototype** </span>| --------- | 
-|pop(),push()   |charAt(),trim()   |toPrecision(),toFixed()   |name,call()   |  --------- |
-|reverse() etc.   |replace() etc.   |toExponential() etc.   | bind(),apply(),etc  | --------- |  
+![chaining pic](./img/img3.png "chaining")
 
 ### All the object have some properties that are given to them as soon as they created, these are:
 
